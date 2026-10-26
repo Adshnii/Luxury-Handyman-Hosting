@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://adshnii.github.io/Luxury-Handyman-Hosting/sitemap.xml
+Sitemap: https://luxuryhandymansolvix.com/sitemap.xml

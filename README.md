@@ -1,6 +1,6 @@
 # Luxury Handyman Company — production website
 
-Publication URL: https://adshnii.github.io/Luxury-Handyman-Hosting/
+Publication URL: https://luxuryhandymansolvix.com/
 
 This repository is the production source for the owner-approved static company website. GitHub Pages publishes the `main` branch from `/`. `.nojekyll` disables Jekyll. No build dependencies or backend server are required.
 
@@ -14,7 +14,7 @@ Edit this repository: `index.html` for content, `styles.css` for presentation, `
 
 The contact form prepares a message in the visitor's email application; it does not send automatically or store requests. This site has no checkout, payment processing, customer accounts or database.
 
-The owned domain `luxuryhandymansolvix.com` is not connected yet. Do not add a CNAME before verifying domain ownership and DNS; preserve the business email DNS records.
+The custom domain `luxuryhandymansolvix.com` is configured in Pages and CNAME. Namecheap web DNS points to GitHub; existing Spacemail records are preserved. Current domain and search-indexing status is recorded in the private information repository.
 
 ## Assets
 
