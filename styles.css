@@ -12,3 +12,5 @@
 .approach-row p a{text-decoration:underline;text-underline-offset:3px}.approach-row p a:hover{color:var(--ink)}
 
 .contact-copy>p.contact-areas{font-size:11px;margin:18px 0 0;line-height:1.6}
+
+.legal-page{max-width:850px;margin:auto}.legal-page h1{font-size:clamp(36px,7vw,52px)}.legal-page h2{font-size:26px;margin-top:34px}.legal-page a{text-decoration:underline;overflow-wrap:anywhere}.legal-page p,.legal-page li{font-size:16px;line-height:1.7}

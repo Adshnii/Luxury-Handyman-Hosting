@@ -1,0 +1,9 @@
+{
+  "name": "luxury-handyman-contact",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node start.mjs", "test": "node --test" },
+  "dependencies": { "nodemailer": "10.2.1" }
+}
