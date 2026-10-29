@@ -23,8 +23,7 @@ form.addEventListener('submit', event => {
   event.preventDefault();
   if (!form.reportValidity()) return;
   const data = new FormData(form);
-  const location = (data.get('location') === 'other' ? data.get('other_location') : data.get('location')).trim();
-  const body = `Hello Luxury Handyman Company,\n\nI would like to discuss a project.\n\nName: ${data.get('name').trim()}\nEmail: ${data.get('email').trim()}\nLocation: ${location}\n\nProject details:\n${data.get('message').trim()}\n\nThank you!`;
+  const body = `Hello Luxury Handyman Company,\n\n${data.get('message').trim()}`;
   document.querySelector('#prepared-request').value = body;
   document.querySelector('#email-fallback').hidden = false;
   document.querySelector('#form-status').textContent = 'Your request is prepared. Review and send it in your email app. Nothing has been sent yet.';
