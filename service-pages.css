@@ -41,3 +41,12 @@
 .service-footer{border-top:1px solid #45454d;font-size:12px}
 @media(max-width:1100px){.service-header,.service-detail{width:calc(100% - 64px)}.service-hero{gap:5%}.service-art{padding:20px}}
 @media(max-width:760px){.service-header,.service-detail{width:calc(100% - 40px)}.service-header{flex-wrap:wrap;gap:0;justify-content:center;padding-bottom:16px}.service-header nav{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:26px;padding:0;background:transparent;border:0;backdrop-filter:none;width:100%}.service-header nav>a{font-size:13px;padding:12px 0}.service-breadcrumb{padding:24px 0;font-size:11px}.service-hero{grid-template-columns:1fr;padding:20px 0 44px;gap:28px}.service-hero h1{font-size:clamp(36px,9vw,54px)}.service-art{max-width:380px;width:100%;justify-self:center}.service-lead{font-size:21px}.service-content{padding:40px 0}.service-inclusions,.service-details,.service-booking,.service-pages{grid-template-columns:1fr;gap:24px}.service-inclusions article+article{border-top:1px solid #45454d;padding-top:24px}.service-inclusions .item-number{margin-bottom:14px}.service-booking .booking-actions{justify-self:stretch}.quick-actions a{flex:1;gap:14px;padding:14px 17px}.hero-copy .quick-actions{max-width:350px}.service-pages strong{font-size:21px}}
+
+/* Personal service copy and an original illustrative service photograph. */
+.service-photo{margin:0;align-self:center;border:1px solid #48484f;background:#2d2d31}
+.service-photo img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.service-photo figcaption{padding:10px 14px;color:#c7c7cc;font-size:11px;line-height:1.5}
+.service-care{display:grid;grid-template-columns:1fr 1fr;gap:8%}
+.service-care p:not(.eyebrow){font-size:16px;line-height:1.75;color:#c7c7cc}
+.service-care p:last-child{margin-bottom:0}
+@media(max-width:760px){.service-care{grid-template-columns:1fr;gap:8px}.service-photo{width:100%;max-width:480px;justify-self:center}}
