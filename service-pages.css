@@ -50,3 +50,9 @@
 .service-care p:not(.eyebrow){font-size:16px;line-height:1.75;color:#c7c7cc}
 .service-care p:last-child{margin-bottom:0}
 @media(max-width:760px){.service-care{grid-template-columns:1fr;gap:8px}.service-photo{width:100%;max-width:480px;justify-self:center}}
+
+/* A service is one full-card link, with no separate action row. */
+.service-grid .service-card-link{display:block;position:absolute;inset:0;z-index:1;margin:0;max-width:none}
+.service-grid article{transition:background .2s}
+.service-grid article:hover{background:#ffffff06}
+.service-grid .service-card-link:focus-visible{outline:2px solid #fff;outline-offset:-4px}
