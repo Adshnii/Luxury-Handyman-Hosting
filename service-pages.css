@@ -1,0 +1,43 @@
+/* Shared service pages and prominent contact actions. */
+.quick-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.quick-actions a{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:48px;padding:14px 22px;border:1px solid #eeeef0;background:#eeeef0;color:#27272a;font-size:14px;font-weight:600;text-decoration:none}
+.quick-actions .whatsapp-action{background:#303034;color:#fff;border-color:#a5a5ac}
+.quick-actions a:hover{background:#fff;color:#17171a}
+.quick-actions a:focus-visible,.service-pages a:focus-visible{outline:3px solid #fff;outline-offset:5px}
+.service-pages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:30px}
+.service-pages a{display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:26px;border:1px solid #55555d;color:#f5f5f5;text-decoration:none}
+.service-pages a:hover{background:#353539;border-color:#aaa}
+.service-pages strong{font-size:20px;font-weight:500;line-height:1.35;letter-spacing:-.02em}
+.service-pages span{font-size:12px;color:#d1d1d4}
+.service-header{max-width:1320px;width:calc(100% - 96px);margin:auto;padding:12px 0;min-height:130px}
+.service-header nav{display:flex;position:static;gap:32px;margin:0}
+.service-header nav a{min-height:44px}
+.service-detail{width:calc(100% - 96px);max-width:1320px;margin:auto}
+.service-breadcrumb{padding:28px 0;font-size:12px;color:#c7c7cc}
+.service-breadcrumb a{text-decoration:underline;text-underline-offset:4px}
+.service-hero{display:grid;grid-template-columns:1.2fr .8fr;gap:8%;align-items:center;padding:36px 0 70px}
+.service-hero h1{font-size:clamp(38px,4.7vw,64px);line-height:1.08;margin-bottom:26px;max-width:750px}
+.service-hero .eyebrow{margin-bottom:22px}
+.service-lead{font-size:22px;color:#dddde1;line-height:1.35;letter-spacing:-.025em}
+.service-intro{max-width:620px;font-size:16px;color:#c7c7cc}
+.service-art{background:#2d2d31;border:1px solid #48484f;padding:32px;aspect-ratio:1;display:grid;place-content:center}
+.service-art svg{width:100%;height:auto;fill:none;stroke:#d2d2d7;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.service-art p{margin:18px 0 0;text-align:center;font-size:10px;letter-spacing:.18em;color:#bdbdc3}
+.service-content{padding:58px 0;border-top:1px solid #45454d}
+.service-content h2{font-size:clamp(28px,3vw,38px)}
+.service-inclusions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.service-inclusions h3{font-size:21px;line-height:1.3}
+.service-inclusions p,.service-details p{font-size:16px;color:#c7c7cc;line-height:1.75}
+.service-inclusions .item-number{font-size:11px;letter-spacing:.1em;display:block;margin-bottom:25px;color:#bdbdc3}
+.service-details{display:grid;grid-template-columns:1fr 1fr;gap:8%}
+.service-details h3{font-size:20px}
+.service-details .scope-note{font-size:14px;border-left:2px solid #75757e;padding-left:20px}
+.service-details summary{font-size:16px}
+.service-details details p{margin-right:0;font-size:15px}
+.service-booking{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}
+.service-booking p{font-size:16px;color:#c7c7cc;max-width:570px}
+.service-booking .booking-actions{justify-self:end}
+.service-booking .booking-actions>a{text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.service-footer{border-top:1px solid #45454d;font-size:12px}
+@media(max-width:1100px){.service-header,.service-detail{width:calc(100% - 64px)}.service-hero{gap:5%}.service-art{padding:20px}}
+@media(max-width:760px){.service-header,.service-detail{width:calc(100% - 40px)}.service-header{flex-wrap:wrap;gap:0;justify-content:center;padding-bottom:16px}.service-header nav{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:26px;padding:0;background:transparent;border:0;backdrop-filter:none;width:100%}.service-header nav>a{font-size:13px;padding:12px 0}.service-breadcrumb{padding:24px 0;font-size:11px}.service-hero{grid-template-columns:1fr;padding:20px 0 44px;gap:28px}.service-hero h1{font-size:clamp(36px,9vw,54px)}.service-art{max-width:380px;width:100%;justify-self:center}.service-lead{font-size:21px}.service-content{padding:40px 0}.service-inclusions,.service-details,.service-booking,.service-pages{grid-template-columns:1fr;gap:24px}.service-inclusions article+article{border-top:1px solid #45454d;padding-top:24px}.service-inclusions .item-number{margin-bottom:14px}.service-booking .booking-actions{justify-self:stretch}.quick-actions a{flex:1;gap:14px;padding:14px 17px}.hero-copy .quick-actions{max-width:350px}.service-pages strong{font-size:21px}}
