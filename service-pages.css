@@ -56,3 +56,24 @@
 .service-grid article{transition:background .2s}
 .service-grid article:hover{background:#ffffff06}
 .service-grid .service-card-link:focus-visible{outline:2px solid #fff;outline-offset:-4px}
+
+/* Local service context and practical visit planning. */
+.hero-location{color:#eeeef0;font-size:11px;font-weight:600;letter-spacing:.12em;margin-bottom:18px}
+.service-planning{display:grid;grid-template-columns:1fr 1fr;gap:8%}
+.planning-intro,.visit-steps p{color:#c7c7cc;font-size:16px;line-height:1.75}
+.visit-steps{margin:0;padding-left:26px}
+.visit-steps li{padding:0 0 22px 8px}
+.visit-steps li:last-child{padding-bottom:0}
+.visit-steps li::marker{color:#c7c7cc;font-size:14px}
+.visit-steps h3{font-size:20px;line-height:1.35;margin-bottom:10px}
+.visit-steps p{margin-bottom:0}
+.mobile-contact-bar{display:none}
+@media(max-width:760px){
+ .service-planning{grid-template-columns:1fr;gap:14px}
+ body{padding-bottom:calc(78px + env(safe-area-inset-bottom,0px))}
+ .mobile-contact-bar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:10;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:#27272af5;border-top:1px solid #55555d}
+ .mobile-contact-bar a{display:flex;align-items:center;justify-content:center;min-height:48px;background:#eeeef0;color:#27272a;font-weight:600;font-size:14px;border:1px solid #eeeef0}
+ .mobile-contact-bar a:last-child{background:#303034;color:#fff;border-color:#a5a5ac}
+ .mobile-contact-bar a:focus-visible{outline-offset:2px}
+ html{scroll-padding-bottom:100px}
+}
